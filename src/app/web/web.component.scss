@@ -1,0 +1,25 @@
+.container-fluid{
+    border: .5px solid rgb(233, 230, 230) ;
+    min-width: 100%;
+    position: fixed;      //remove n see the issue
+    margin-top: 50px;
+    // display:grid;
+    // justify-content: center;
+    box-shadow: 2px;
+    
+}
+  
+.container img{
+    width: 100px;
+    height: 80px;
+    margin: 0px 100px ;
+    border-radius: 50%;
+}
+
+.container h6{
+    margin: 0px 115px;
+}
+
+.iteam a:hover{
+    color: blue
+}
