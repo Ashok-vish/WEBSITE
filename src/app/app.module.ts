@@ -7,14 +7,18 @@ import { WebComponent } from './web/web.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
-import{HttpClientModule} from '@angular/common/http'
+import{HttpClientModule} from '@angular/common/http';
+import { CartComponent } from './cart/cart.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     WebComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    CartComponent,
+ 
   ],
   imports: [
     BrowserModule,

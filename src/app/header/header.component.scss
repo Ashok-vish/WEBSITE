@@ -1,75 +1,43 @@
-// h1{
-//     background-color:rgb(180, 236, 223);
-//     margin: 0px;
-// }
 
-// div{
-//     padding-left: 0px;
-//     padding-right: 0px;
-//     position: fixed;
-
-// }
-
-
-// * {
-//     font-family: 'Fasthand', cursive;
-// }
-
-.container-fluid {
-
-    position: fixed;
-    height: 50px;
-
+.header {
+    // position: fixed;
+    // height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
 }
-
-.text {
-    margin-left: 2vw;
-    color: white;
-    float: left;
-
+.logobox{
+    display: flex;
+    align-items: center;
 }
-
-.bi-tsunami {
-
-    float: left;
-    height: 50px;
-    width: 35px;
-    color: white;
+.logobox svg{
+    color: #fff;
 }
-
-
-.searchcontrol {
-    margin-left: 2px;
-    width: 30%;
-    // float: right;
-    position: fixed;
-    margin-left: 700px;
-    margin-top: 10px;
+.logobox h1{
+    color: #fff;
+    margin-left: 10px;
 }
-
-// svg{
-//     position: absolute;
-//     left: 1380px;
-// }
-
-#searchicon {
+.searchbox{
+    display: flex;
+    align-items: center;
+}
+.searchgroup{
+    position: relative;
+}
+.searchgroup input{
+    width: 350px;
+    padding-right: 35px;
+}
+.searchgroup svg {
+    
     position: absolute;
-    // left: 1340px;
-    right: 160px;
-    margin-top: 15px;
-
+    right: 5px;
+    top: 8px;
 }
-
 #cart {
-    //    position: absolute;
-    //    right: 20px;
-
-    height: 50px;
-    width: 35px;
+    height: 35px;
     color: white;
-    position: fixed;
-    right: 20px;
-
-
-
+    margin: 0 15px;
 }
+

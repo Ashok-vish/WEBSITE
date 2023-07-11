@@ -48,3 +48,26 @@
 //     width: fit-content;
 // }
 
+.page-wrapper {
+    min-height: 100vh;
+    max-height: 100vh;
+}
+
+.header-wrapper {
+    min-height: 8vh;
+    max-height: 8vh;
+    height: 8vh;
+}
+
+.body-wrapper {
+    min-height: 84vh;
+    max-height: 84vh;
+    height: 84vh;
+    overflow-y: auto;
+}
+
+.footer-wrapper {
+    min-height: 8vh;
+    max-height: 8vh;
+    height: 8vh;
+}

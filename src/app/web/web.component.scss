@@ -1,25 +1,73 @@
-.container-fluid{
-    border: .5px solid rgb(233, 230, 230) ;
-    min-width: 100%;
-    position: fixed;      //remove n see the issue
-    margin-top: 50px;
-    // display:grid;
-    // justify-content: center;
-    box-shadow: 2px;
+
+.allproduct{
+    // border: 0.5px solid rgb(233, 230, 230);
+    position: fixed;
+    top: 56px;
+    padding: 6px;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    z-index: 1;
+    border-bottom: 1px solid black;
     
+
+ 
 }
-  
-.container img{
+
+
+.allproduct  .item a img{
     width: 100px;
-    height: 80px;
-    margin: 0px 100px ;
-    border-radius: 50%;
+    height: 100px;
+   border-radius: 50%; 
+   display: flex;
+    margin-top: 6px
 }
 
-.container h6{
-    margin: 0px 115px;
+.allproduct  .item a h6{
+
+   justify-content: center;
 }
 
-.iteam a:hover{
+
+
+.mainpage{
+    padding: 50px;
+    padding-top: 160px;
+    background-color: whitesmoke;
+}
+
+
+.item a:hover{
     color: blue
 }
+
+
+.allproduct .item a h6{
+    display: flex;
+    align-items: center;
+}
+
+.card img{
+    width: 200px;
+    height: 250px;
+    position: relative;
+    align-self: center;
+    margin-bottom: 15px;
+    transition: 0.1s ease-in-out;
+    border-radius: 20px;
+    
+     
+}
+
+.card img:hover{
+    transition: 0.1s ease-in-out;
+    transform: scale(1.1);
+}
+
+.card{
+    padding: 30px;
+    margin: 50px;
+    display: flex;
+}
+
+

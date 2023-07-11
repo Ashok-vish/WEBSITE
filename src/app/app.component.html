@@ -1,12 +1,16 @@
-<app-header></app-header>
-<app-web></app-web>
-<app-footer></app-footer>
+<div class="container-fluid page-wrapper">
+  <div class="row">
+    <div class="col-12 bg-primary px-0 header-wrapper">
+      <app-header></app-header>
+    </div>
+    <div class="col-12 px-0  body-wrapper">
+      <router-outlet></router-outlet>
+    </div>
+    <div class="col-12 bg-primary px-0 footer-wrapper">
+      <app-footer></app-footer>
+    </div>
+  </div>
+</div>
+<!-- <app-web></app-web> -->
 
-<router-outlet></router-outlet>
 
-<!-- <div class="container">
-  <div class="box-color1">red</div>
-  <div class="box-color2">blue</div>
-  <div class="box-color3">green</div>
-  <div class="box-color4">back</div>
-</div> -->
