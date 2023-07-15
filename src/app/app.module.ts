@@ -9,6 +9,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import{HttpClientModule} from '@angular/common/http';
 import { CartComponent } from './cart/cart.component';
+import { UiComponent } from './ui/ui.component';
 
 
 @NgModule({
@@ -18,6 +19,7 @@ import { CartComponent } from './cart/cart.component';
     HeaderComponent,
     FooterComponent,
     CartComponent,
+    UiComponent,
  
   ],
   imports: [
