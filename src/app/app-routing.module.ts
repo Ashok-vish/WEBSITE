@@ -5,6 +5,7 @@ import { CartComponent } from './cart/cart.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { UiComponent } from './ui/ui.component';
+import { ToggleComponent } from './toggle/toggle.component';
 
 
 const routes: Routes = [
@@ -13,6 +14,7 @@ const routes: Routes = [
   { path: 'header', component: HeaderComponent },
   {path:'ui' , component:UiComponent },
   // {path:'footer', component:FooterComponent },
+  {path:'toggle' , component:ToggleComponent },
 
 
 ];

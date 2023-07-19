@@ -10,6 +10,7 @@ import { FooterComponent } from './footer/footer.component';
 import{HttpClientModule} from '@angular/common/http';
 import { CartComponent } from './cart/cart.component';
 import { UiComponent } from './ui/ui.component';
+import { ToggleComponent } from './toggle/toggle.component';
 
 
 @NgModule({
@@ -20,6 +21,7 @@ import { UiComponent } from './ui/ui.component';
     FooterComponent,
     CartComponent,
     UiComponent,
+    ToggleComponent,
  
   ],
   imports: [
