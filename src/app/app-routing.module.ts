@@ -6,6 +6,8 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { UiComponent } from './ui/ui.component';
 import { ToggleComponent } from './toggle/toggle.component';
+import { HostlistnerAndBindingComponent } from './hostlistner-and-binding/hostlistner-and-binding.component';
+import { ViewchildChildrenComponent } from './viewchild-children/viewchild-children.component';
 
 
 const routes: Routes = [
@@ -15,6 +17,8 @@ const routes: Routes = [
   {path:'ui' , component:UiComponent },
   // {path:'footer', component:FooterComponent },
   {path:'toggle' , component:ToggleComponent },
+  {path:'host' , component:HostlistnerAndBindingComponent },
+  {path:'view' , component:ViewchildChildrenComponent },
 
 
 ];

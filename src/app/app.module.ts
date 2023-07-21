@@ -11,6 +11,8 @@ import{HttpClientModule} from '@angular/common/http';
 import { CartComponent } from './cart/cart.component';
 import { UiComponent } from './ui/ui.component';
 import { ToggleComponent } from './toggle/toggle.component';
+import { HostlistnerAndBindingComponent } from './hostlistner-and-binding/hostlistner-and-binding.component';
+import { ViewchildChildrenComponent } from './viewchild-children/viewchild-children.component';
 
 
 @NgModule({
@@ -22,6 +24,8 @@ import { ToggleComponent } from './toggle/toggle.component';
     CartComponent,
     UiComponent,
     ToggleComponent,
+    HostlistnerAndBindingComponent,
+    ViewchildChildrenComponent,
  
   ],
   imports: [
